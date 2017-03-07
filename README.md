@@ -28,9 +28,14 @@ npm start
 /service/district/:id/children
 
 数据校验
+
 /service/employee/exists?email=alex.tong007@gmail.com
+
 数据字典装载
+
 /service/dictionary?codes=1001,1002,1003,1004
+
 服务端排序
+
 /service/employee/find?pageSize=5&pageNo=1
 
