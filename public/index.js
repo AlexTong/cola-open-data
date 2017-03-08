@@ -25,7 +25,7 @@
 			{path: "/service/district/:id/children"},
 			{path: "/service/employee/exists?email=alex.tong007@gmail.com"},
 			{path: "/service/dictionary?codes=10011,10012,10013,10014"},
-			{path: "/service/employee/find?pageSize=5&pageNo=1"}
+			//{path: "/service/employee/find?pageSize=5&pageNo=1"}
 		])
 	});
 })();
