@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "data-maker",
+    "username": "opendatauser",
+    "password": "useopendata",
+    "database": "opendata",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
