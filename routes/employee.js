@@ -55,5 +55,14 @@ router.get('/:id/destroy', function (req, res) {
 	});
 });
 
+router.get('/exists', function (req, res) {
+	models.Employee.findOne({
+		where: {
+			email: req.query.email
+		}
+	}).then(function (entity) {
+		res.send({type: !!entity});
+	});
+});
 
 module.exports = router;
